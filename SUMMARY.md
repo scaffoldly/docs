@@ -38,7 +38,6 @@
   * [Serverless REST API](backends/adding-a-backend/serverless-rest-api.md)
 * [Auth API](backends/auth-api/README.md)
   * [Disabling the Auth API](backends/auth-api/disabling-the-auth-api.md)
-* [Serverless REST API](backends/serverless-rest-api.md)
 * [serverless-util](backends/serverless-util.md)
 * [DynamoDB](backends/dynamodb.md)
 * [Future Roadmap](backends/future-roadmap.md)
