@@ -34,6 +34,8 @@
 
 ## Backends
 
+* [Adding a Backend](backends/adding-a-backend/README.md)
+  * [Serverless REST API](backends/adding-a-backend/serverless-rest-api.md)
 * [Auth API](backends/auth-api/README.md)
   * [Disabling the Auth API](backends/auth-api/disabling-the-auth-api.md)
 * [Serverless REST API](backends/serverless-rest-api.md)
@@ -41,15 +43,12 @@
 * [DynamoDB](backends/dynamodb.md)
 * [Future Roadmap](backends/future-roadmap.md)
 * [FAQs](backends/faqs.md)
-* [Templates](backends/templates/README.md)
-  * [Serverless REST API](backends/templates/serverless-rest-api.md)
 
 ## Frontends
 
-* [Adding A Frontend](frontends/adding-a-frontend.md)
-* [Templates](frontends/templates/README.md)
-  * [CDN](frontends/templates/cdn.md)
-  * [Angular](frontends/templates/angular.md)
+* [Adding a Frontend](frontends/adding-a-frontend/README.md)
+  * [CDN](frontends/adding-a-frontend/cdn.md)
+  * [Angular](frontends/adding-a-frontend/angular.md)
 * [Future Roadmap](frontends/future-roadmap.md)
 
 ---
