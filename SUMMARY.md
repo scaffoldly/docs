@@ -5,6 +5,7 @@
   * [Prerequisites](getting-started/prerequisites.md)
   * [Bootstrapping](getting-started/bootstrapping.md)
   * [Adding Services](getting-started/adding-services.md)
+* [Demo](demo.md)
 
 ## Infrastructure
 
