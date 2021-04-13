@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introducing Scaffoldly](README.md)
 * [Getting Started](getting-started/README.md)
   * [Prerequisites](getting-started/prerequisites.md)
   * [Bootstrapping](getting-started/bootstrapping.md)
