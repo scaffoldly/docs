@@ -7,7 +7,7 @@ Need a web portals \(such as https://app.myproject.com\)? Scaffoldly has templat
 Start from an available template:
 
 * [Angular](../frontends/adding-a-frontend/angular.md)
-* [Content Distribution Network \(CDN\)](../frontends/adding-a-frontend/cdn.md)
+* [Content Distribution Network \(CDN\)](../frontends/adding-a-frontend/cdn.md) \(for Static HTML, JavaScript, Images, Video, etc.\)
 
 ## Add APIs
 
@@ -19,5 +19,21 @@ Start from an available template:
 
 * [Serverless REST API](../backends/adding-a-backend/serverless-rest-api.md)
 
+## Add More Cloud Infrastructure
 
+You're not limited to the bootstrapping that Scaffoldly has put in place for you. 
 
+You can add your own [Terraform](https://terraform.io) code to the `scaffoldly-bootstrap` project and start provisioning your customized infrastructure.
+
+Have a look at [Adding Your Own Terraform Modules](../infrastructure/configuration-files/adding-your-own-terraform-modules.md).
+
+## Ok great, what's next?
+
+Go code!
+
+And here's a laundry list of what have a look at as you continue to build:
+
+* [Access the AWS Console for your new Organization](../infrastructure/console-access.md)
+* [Live Deployment Checklist](../releases-versions-deployments/live-deploy-checklist.md)
+* Adding Users to your Organization
+* 

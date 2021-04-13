@@ -1,6 +1,6 @@
 # Serverless REST API
 
-### Provision the Backend in `scaffoldly-bootstrap`
+## Provision the Backend in `scaffoldly-bootstrap`
 
 Edit `main.tf` in the `scaffoldly-bootstrap` project
 
@@ -42,4 +42,8 @@ Once the release has been finished, and assuming your `nonlive` domain is `mypro
 # Output the version in package.json
 curl -v https://sly.myproject.dev/example/version
 ```
+
+## What does this do, exactly?
+
+
 
