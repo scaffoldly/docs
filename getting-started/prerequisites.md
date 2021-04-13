@@ -26,10 +26,10 @@ Scaffoldly needs a very light privileges in the AWS Root Account.
 1. In the AWS "Root Account" Create a new [IAM User](https://console.aws.amazon.com/iam/home#/users$new)
    1. The name is unimportant, as a recommendation, you could use `scaffoldly-bootstrap`
    2. Enable **Programatic Access** so an Access Key and Secret Key are created
-   3. Provide it the following Inline Policy `{   "Version": "2012-10-17",   "Statement": [     {       "Effect": "Allow",       "Action": [         "organizations:*",         "route53:List*",         "route53:Get*"       ],       "Resource": "*"     },     {       "Effect": "Allow",       "Action": [         "sts:AssumeRole",         "route53:ChangeResourceRecordSets"       ],       "Resource": [         "arn:aws:iam::*:role/ScaffoldlyBootstrap",         "arn:aws:route53:::hostedzone/YOUR-HOSTED-ZONE-ID"       ]     }   ] }`
+   3. Save the **Access Key and Secret Key**, you'll need it in few steps
+   4. Once the user is created, add an **Inline Policy**, and paste the following into the JSON tab in IAM: `{   "Version": "2012-10-17",   "Statement": [     {       "Effect": "Allow",       "Action": [         "organizations:*",         "route53:List*",         "route53:Get*"       ],       "Resource": "*"     },     {       "Effect": "Allow",       "Action": [         "sts:AssumeRole",         "route53:ChangeResourceRecordSets"       ],       "Resource": [         "arn:aws:iam::*:role/ScaffoldlyBootstrap",         "arn:aws:route53:::hostedzone/YOUR-HOSTED-ZONE-ID"       ]     }   ] }`
       1. Be sure to change `YOUR-HOSTED-ZONE-ID` to the **Hosted Zone Id** from the previous step.
          1. If you have multiple domains Scaffoldly is to manage \(e.g. myproject.dev\), add those Zone IDs on separate lines as well.
-   4. Save the **Access Key and Secret Key**, you'll need it in few steps
 
 ## Dedicated Email Address
 
@@ -51,8 +51,11 @@ Scaffoldly needs a very light privileges in the AWS Root Account.
 
 ## Terraform Cloud
 
-1. Using the Dedicated Email Address you created a couple steps earlier, Create a [**Terraform Cloud**](https://app.terraform.io/signup/account) account
+1. Create a [**Terraform Cloud**](https://app.terraform.io/signup/account) account
+   1. Username: Same as your GitHub Organization
+   2. Email: The Dedicated Email Address you created earlier
 2. Create an [**API Token**](https://app.terraform.io/app/settings/tokens), save it for a moment, you'll need it in a few steps
+   1. Name: scaffoldly-bootstrap
 
 ## Great! You're ready to go, continue to [**Bootstrapping**](bootstrapping.md).
 
