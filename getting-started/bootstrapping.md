@@ -16,8 +16,9 @@
 
 ## Clone and Modify the Bootstrap Repository
 
-1. Clone your newly created repository
+1. Clone your newly created `scaffoldly-bootstrap` repository
 2. In your favorite editor, modify `main.tf`
+   1. Or edit it directly in GitHub
 3. Find the section that starts with `module "bootstrap" {` and make the following modifications
    1. Set your domain\(s\) and/or subdomain\(s\) in the `stages` block
       1. There's two predetermined stages: "_**nonlive**_" \(aka "dev", "sandbox", "staging"\) and "_**live**_" \(aka "production"\), so **don't change those keywords**.
@@ -34,8 +35,8 @@
 All infrastructure changes are made by creating and/or publishing releases on the `scaffoldly-bootstrap` repository, a very familiar paradigm for most developers.
 
 1. Open the Releases page for the `scaffoldly-bootstrap` repository
-   1. Found on the right of your projects page in GitHub by clicking on **Releases**
-2. You will see a new **Draft** release, likely called **0.1.0-0**
+   1. Found on the right of your projects page in GitHub by clicking on the **Releases** header
+2. You will see a new **Draft** release, likely called **0.1.1-0**
    1. The output of the `terraform plan` action is posted here, detailing all of the changes that are queued to be changed.
    2. Review it, make sure everything looks in order.
    3. The first release will have a substantial number of resources to create, for a rundown of what's being created, check out [What's going to happen on initial bootstrap?](../infrastructure/faqs.md#aws-org)
