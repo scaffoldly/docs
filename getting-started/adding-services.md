@@ -8,6 +8,8 @@ Start from an available template:
 
 * [Angular](../frontends/adding-a-frontend/angular.md)
 * [Content Distribution Network \(CDN\)](../frontends/adding-a-frontend/cdn.md) \(for Static HTML, JavaScript, Images, Video, etc.\)
+* React \(Coming Soon\)
+* Vue \(Coming Soon\)
 
 ## Add APIs
 
@@ -18,6 +20,7 @@ Scaffoldly makes it easy to provision a new API and there are templates availabl
 Start from an available template:
 
 * [Serverless REST API](../backends/adding-a-backend/serverless-rest-api.md)
+* Serverless GraphQL API \(Coming Soon\)
 
 ## Add More Cloud Infrastructure
 
