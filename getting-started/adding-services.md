@@ -36,4 +36,6 @@ And here's a laundry list of what have a look at as you continue to build:
 * [Access the AWS Console for your new Organization](../infrastructure/console-access.md)
 * [Live Deployment Checklist](../releases-versions-deployments/live-deploy-checklist.md)
 * Adding Users to your Organization
-* 
+
+
+
