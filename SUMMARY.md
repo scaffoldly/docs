@@ -19,6 +19,7 @@
 * [Security](infrastructure/security/README.md)
   * [SSL/TLS Certificates](infrastructure/security/ssl-tls-certificates.md)
   * [Cloud Logging](infrastructure/security/cloud-logging.md)
+  * [Usage Analytics](infrastructure/security/usage-analytics.md)
 * [DNS](infrastructure/dns.md)
 * [Console Access](infrastructure/console-access.md)
 * [Service Discovery](infrastructure/service-discovery.md)
