@@ -10,7 +10,6 @@
 
 ## Infrastructure
 
-* [Environment Variables and Secrets](infrastructure/environment-variables-and-secrets.md)
 * [FAQs](infrastructure/faqs.md)
 * [Configuration Files](infrastructure/configuration-files/README.md)
   * [Stages](infrastructure/configuration-files/stages.md)
@@ -19,6 +18,7 @@
   * [Template Repositories](infrastructure/configuration-files/template-repositories.md)
   * [Adding Your Own Terraform Modules](infrastructure/configuration-files/adding-your-own-terraform-modules.md)
 * [Security](infrastructure/security/README.md)
+  * [Secrets](infrastructure/security/secrets.md)
   * [SSL/TLS Certificates](infrastructure/security/ssl-tls-certificates.md)
   * [Cloud Logging](infrastructure/security/cloud-logging.md)
   * [Usage Analytics](infrastructure/security/usage-analytics.md)
