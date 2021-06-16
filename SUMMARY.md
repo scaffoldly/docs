@@ -6,9 +6,11 @@
   * [Bootstrapping](getting-started/bootstrapping.md)
   * [Adding Services](getting-started/adding-services.md)
 * [Demo](demo.md)
+* [Features](features.md)
 
 ## Infrastructure
 
+* [Environment Variables and Secrets](infrastructure/environment-variables-and-secrets.md)
 * [FAQs](infrastructure/faqs.md)
 * [Configuration Files](infrastructure/configuration-files/README.md)
   * [Stages](infrastructure/configuration-files/stages.md)
