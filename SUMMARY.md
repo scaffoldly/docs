@@ -7,6 +7,7 @@
   * [Adding Services](getting-started/adding-services.md)
 * [Demo](demo.md)
 * [Features](features.md)
+* [Feature Matrix](feature-matrix.md)
 
 ## Infrastructure
 
