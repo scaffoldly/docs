@@ -5,8 +5,13 @@
   * [Prerequisites](getting-started/prerequisites.md)
   * [Bootstrapping](getting-started/bootstrapping.md)
   * [Adding Services](getting-started/adding-services.md)
+  * [Video Walkthrough](getting-started/video-walkthrough/README.md)
+    * [Infrastructure](getting-started/video-walkthrough/infrastructure.md)
+    * [Backend APIs](getting-started/video-walkthrough/backend-apis.md)
+    * [Frontends](getting-started/video-walkthrough/frontends.md)
+    * [Releases](getting-started/video-walkthrough/releases.md)
+    * [Going Live!](getting-started/video-walkthrough/going-live.md)
 * [Demo](demo.md)
-* [Features](features.md)
 * [Feature Matrix](feature-matrix.md)
 
 ## Infrastructure
