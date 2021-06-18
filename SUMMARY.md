@@ -12,6 +12,7 @@
     * [Releases](getting-started/video-walkthrough/releases.md)
     * [Going Live!](getting-started/video-walkthrough/going-live.md)
 * [Demo](demo.md)
+* [Features](features.md)
 * [Feature Matrix](feature-matrix.md)
 
 ## Infrastructure
