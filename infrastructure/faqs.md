@@ -47,7 +47,9 @@ These instructions will destroy your infrastructure and start everything fresh. 
 5. Update the `BOOTSTRAP_ROOT EMAIL` in the `scaffoldly-bootstrap` project secrets
 6. Remove all sly-\* and sls-\* repos
 7. Update the email address on Terraform Cloud
-8. Run scaffoldly-bootstrap workflow\_dispatch
+8. Delete scaffoldly-bootstrap from Terraform Cloud 
+9. Run scaffoldly-bootstrap workflow\_dispatch \(creates a new AWS Organization\)
+10. Delete the old AWS Organization
 
 
 
