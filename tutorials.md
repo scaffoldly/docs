@@ -8,7 +8,7 @@ TODO
 
 ## One Time Setup
 
-[https://video214.com/play/ikvop1V1lRr0rHBKHW301Q/s/dark](https://video214.com/play/ikvop1V1lRr0rHBKHW301Q/s/dark)
+[Video](https://video214.com/play/ikvop1V1lRr0rHBKHW301Q/s/dark)
 
 | Links |
 | :--- |
