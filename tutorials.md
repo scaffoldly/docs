@@ -8,7 +8,7 @@ TODO
 
 ## One Time Setup
 
-[https://animoto.com/play/ikvop1V1lRr0rHBKHW301Q](https://animoto.com/play/ikvop1V1lRr0rHBKHW301Q)
+[https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1624318550&f=ikvop1V1lRr0rHBKHW301Q&d=0&m=p&r=360p+480p+720p&volume=100&start\_res=720p&i=m&asset\_domain=s3-p.animoto.com&animoto\_domain=animoto.com&options=](https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1624318550&f=ikvop1V1lRr0rHBKHW301Q&d=0&m=p&r=360p+480p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=)
 
 | Links |
 | :--- |
