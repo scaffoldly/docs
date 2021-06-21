@@ -8,7 +8,7 @@ TODO
 
 ## One Time Setup
 
-[Video](https://video214.com/play/ikvop1V1lRr0rHBKHW301Q/s/dark)
+[https://youtu.be/08wrzSMRFz0](https://youtu.be/08wrzSMRFz0)
 
 | Links |
 | :--- |
