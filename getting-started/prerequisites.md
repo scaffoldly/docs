@@ -47,7 +47,6 @@ Scaffoldly needs a very light privileges in the AWS Root Account.
       3. [x] `admin:org`
          1. [x] `org:read`
          2. [x] `org:write`
-      4. [x] `delete_repo`
 
 ## Terraform Cloud
 

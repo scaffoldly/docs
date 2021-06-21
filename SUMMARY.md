@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introducing Scaffoldly](README.md)
+* [Tutorials](tutorials.md)
 * [Getting Started](getting-started/README.md)
   * [Prerequisites](getting-started/prerequisites.md)
   * [Bootstrapping](getting-started/bootstrapping.md)
@@ -12,7 +13,6 @@
     * [Releases](getting-started/video-walkthrough/releases.md)
     * [Going Live!](getting-started/video-walkthrough/going-live.md)
 * [Demo](demo.md)
-* [Features](features.md)
 * [Feature Matrix](feature-matrix.md)
 
 ## Infrastructure
