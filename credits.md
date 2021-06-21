@@ -10,13 +10,13 @@ Serverless
 
 Terraform
 
-GitHub
-
-AWS
-
 angularx-social-login
 
-Rombot
+Tsoa
+
+Jose
+
+
 
 
 
