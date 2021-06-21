@@ -6,9 +6,9 @@ The tutorials in this section will build our Demo Site: [https://scaffoldly.xyz]
 
 TODO
 
-## Create Infrastructure
+## One Time Setup
 
-[https://video214.com/play/ikvop1V1lRr0rHBKHW301Q/s/dark](https://video214.com/play/ikvop1V1lRr0rHBKHW301Q/s/dark)
+[https://animoto.com/play/ikvop1V1lRr0rHBKHW301Q](https://animoto.com/play/ikvop1V1lRr0rHBKHW301Q)
 
 | Links |
 | :--- |
