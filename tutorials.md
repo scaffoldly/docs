@@ -8,7 +8,7 @@ TODO
 
 ## One Time Setup
 
-https://www.youtube.com/watch?v=08wrzSMRFz0
+[YouTube Video](https://youtu.be/08wrzSMRFz0)
 
 | Links |
 | :--- |
