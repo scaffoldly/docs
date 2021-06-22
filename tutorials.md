@@ -8,7 +8,7 @@ TODO
 
 ## One Time Setup
 
-[YouTube Video](https://youtu.be/08wrzSMRFz0)
+{% embed url="https://youtu.be/08wrzSMRFz0" %}
 
 | Links |
 | :--- |
@@ -17,7 +17,9 @@ TODO
 
 ## Add a Serverless API, Web Portal, and CDN
 
-[https://youtu.be/rlSJU3jzEPQ](https://youtu.be/rlSJU3jzEPQ)
+{% embed url="https://youtu.be/rlSJU3jzEPQ" %}
+
+{% embed url="https://youtu.be/6EYJ2\_631kU" %}
 
 ## Add a New API
 
