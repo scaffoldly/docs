@@ -17,7 +17,7 @@ TODO
 
 ## Add a Serverless API, Web Portal, and CDN
 
-
+[https://youtu.be/rlSJU3jzEPQ](https://youtu.be/rlSJU3jzEPQ)
 
 ## Add a New API
 
