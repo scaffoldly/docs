@@ -6,28 +6,30 @@
 
 ### Dedicated Project Email Address
 
-1. 🗒️ Create a new email address for your project \(for example scaffoldly.demo@gmail.com\) \([Why?](../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)\)
+1. 🗒️ Create a new email address for your project \(for example **my.project@gmail.com**\) \([Why?](../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)\)
    1. It must NOT be the same as the email address of your root AWS account
    2. It must NOT have been used previously at for any other AWS account
 
 ### Domain
 
-1. Purchase a domain for your project \(for example my-project.tld\)
+1. Purchase a domain for your project \(for example **my-project.tld**\)
    1. [Want a separate domain for Non-Live?](../infrastructure/alternate-domain-for-non-live.md)
 2. Make sure it hasn't been used for anything \([Why?](../infrastructure/using-an-existing-domain.md)\)
 
 ### GitHub Organization
 
 1. Create a new [GitHub Organization](https://github.com/account/organizations/new)
-   1. ✅ The Free Tier will work fine, paid tiers are also supported.
-2. Use the [Dedicated Project Email Address](one-time-setup.md#dedicated-email) you created
+   1. Name: something that represents your project, e.g. **`my-project`**
+   2. ✅ The Free Tier will work fine, paid tiers are also supported.
+2. Use the [Dedicated Project Email Address](one-time-setup.md#dedicated-email) you created \(**my.project@gmail.com**\)
 
 ### AWS Account
 
 #### Signup
 
-1. If you don't already have an AWS Account, [create one](https://aws.amazon.com).
-   1. ⚠️ Do NOT use your project's email address \([Why?](../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)\)
+1. If you don't already have an AWS Account, [create one](https://aws.amazon.com). 
+   1. ℹ️ If you already have one, you can use that. Scaffoldly will create a [Sub-Account \(aka Organization\)](https://aws.amazon.com/organizations/) to keep projects separate.
+   2. ⚠️ Do NOT use your project's email address \([Why?](../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)\)  \(e.g. _something.else.entirely@gmail.com_\)
 
 #### Route 53
 
@@ -82,8 +84,8 @@
 #### Terraform Cloud
 
 1. Create a [Terraform Cloud](https://app.terraform.io/signup/account) account
-   1. ⚠️ Username: Same as your [GitHub Organization](one-time-setup.md#github-organization)
-   2. ⚠️ Email: The [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) you created earlier
+   1. ⚠️ Username: Same as your [GitHub Organization](one-time-setup.md#github-organization), e.g. **my-project**
+   2. ⚠️ Email: The [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) you created earlier \(e.g. **my.project@gmail.com**\)
 2. 🗒️ Create and make note of an [API Token](https://app.terraform.io/app/settings/tokens)
    1. **❓**The name is unimportant to us, you can use `scaffoldly-bootstrap` 
 
@@ -106,7 +108,7 @@
 
 1. Go to **Settings** &gt; **Secrets** for `scaffoldly-bootstrap` in your organization
 2. Add five new **Repository** **Secrets**
-   1. `BOOTSTRAP_ROOT_EMAIL`: The [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) you created earlier
+   1. `BOOTSTRAP_ROOT_EMAIL`: The [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) you created earlier \(e.g. **my.project@gmail.com**\)
    2. `BOOTSTRAP_AWS_ACCESS_KEY_ID`: The [AWS Access Key](one-time-setup.md#iam-user) in the CSV you downloaded
    3. `BOOTSTRAP_AWS_SECRET_ACCESS_KEY`: The AWS Secret Key in the CSV you downloaded
    4. `BOOTSTRAP_GITHUB_TOKEN`: The [GitHub Access Token](one-time-setup.md#github-token) you created
@@ -157,7 +159,7 @@ module "bootstrap" {
 
 ![](../.gitbook/assets/screen-shot-2021-06-23-at-11.59.37-am.png)
 
-1. Check the inbox of your [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) for **2 Verification Emails**
+1. Check the inbox of your [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) for **2 Verification Emails** \(**my.project@gmail.com**\)
 2. Click on the links so SES can send email to these
    1. [What about other email addresses?](../faqs.md#ses-cant-send-email-why)
 
@@ -166,7 +168,7 @@ module "bootstrap" {
 1. After Releasing, you will see a new repository in your GitHub Organization named `sly-auth-api`
    1. [What is the `sly-auth-api`?](../serverless-apis/centralized-authentication.md)
 2. Go to Actions \(tab\) for `sly-auth-api` and you will see the first deployment in progress.
-3. After it finishes, in a browser, navigate to `https://sly.my-domain.tld/auth/jwt.html` and you can test creation of a JWT token
+3. After it finishes, in a browser, navigate to `https://sly-dev`**`.my-domain.tld`**`/auth/jwt.html` and you can test creation of a JWT token
 
 
 
