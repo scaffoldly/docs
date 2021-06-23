@@ -1,6 +1,8 @@
 # Introducing Scaffoldly
 
-Many frameworks are great at getting you started, but drop the ball when it comes time to deploy, so you're left to patchwork your own solution together to get your project hosted in the Cloud, which can sometimes take upwards a month of clicking around in the cloud console to get your project to host on your own domain name.
+{% embed url="https://youtu.be/N\_i9dDo0br8" %}
+
+Many frameworks are great at getting you started, but drop the ball when it comes time to deploy, so you're left to patchwork your own solution together to get your project hosted in the Cloud, which can sometimes take a month of clicking around in the cloud console to get your project to host on your own domain name.
 
 Scaffoldly is picking up the ball. We're taking those frameworks and taking it a step further.
 

@@ -91,18 +91,13 @@
 
 ## Add Scaffoldly Bootstrap Template 🙌 
 
-1. Add the [Scaffoldly Bootstrap](https://github.com/scaffoldly/bootstrap-template/generate) repository into to the GitHub organization you [created](../getting-started/prerequisites.md)
+1. Add the [Scaffoldly Bootstrap](https://github.com/scaffoldly/bootstrap-template/generate) repository into to the GitHub organization you [created]()
    1. ⚠️ Name it `scaffoldly-bootstrap`
    2. Keep it **Private**
 
 ### GitHub Token
 
-1. 🗒Create a [**GitHub Token**](https://github.com/settings/tokens/new)
-   1. 1. [x] `repo`
-      2. [x] `workflow`
-      3. [x] `admin:org`
-         1. [x] `org:read`
-         2. [x] `org:write`
+1. 🗒Create a [**GitHub Token**](https://github.com/settings/tokens/new) with the following permissions ✅ `repo` ✅ `workflow` ✅ `admin:org`       ✅ `org:read`       ✅ `org:write`
 
 ### **Add Secrets**
 
