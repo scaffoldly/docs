@@ -153,9 +153,15 @@ module "bootstrap" {
 3. Go to Actions \(tab\) for the `scaffoldly-bootstrap` project
    1. ❓Here you can watch [Terraform Apply](https://www.terraform.io/docs/cli/commands/apply.html) command execute within GitHub Actions
 
+### Verification Emails from SES ⚠️
 
+![](../.gitbook/assets/screen-shot-2021-06-23-at-11.59.37-am.png)
 
-👏 Congratulations! Your infrastructure is now secured and configured and ready to use in AWS!
+1. Check the inbox of your [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) for **2 Verification Emails**
+2. Click on the links so SES can send email to these
+   1. [What about other email addresses?](../faqs.md#ses-cant-send-email-why)
+
+👏 Congratulations! Your infrastructure is now secured, configured and ready to use in AWS!
 
 ## What's Next?
 

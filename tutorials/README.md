@@ -34,6 +34,7 @@ The tutorials in this section will build our Demo Organization:
 * 📕 [Policy Document](one-time-setup.md#iam-role)
 * 🔗 [Terraform Cloud](https://www.terraform.io/cloud)
 * [🔗 Scaffoldly Bootstrap Template](https://github.com/scaffoldly/bootstrap-template)
+* [❓ What does Scaffoldly Create?](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap/blob/main/README.md)
 
 #### For Your Reference
 
