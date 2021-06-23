@@ -2,9 +2,13 @@
 
 ## Introduction
 
-The tutorials in this section will build our Demo Site: [https://scaffoldly.xyz](https://scaffoldly.xyz) \([view on GitHub](https://github.com/scaffoldly-demo)\)
+The tutorials in this section will build our Demo Organization: [https://github.com/scaffoldly-demo](https://github.com/scaffoldly-demo)
 
-TODO: Intro Video
+#### Services created in the demo:
+
+"Cool" API OpenAPI: [https://sly.scaffoldly.xyz/cool/openapi.json](https://sly.scaffoldly.xyz/cool/openapi.json) \([GitHub Repo](https://github.com/scaffoldly-demo/cool-sls-rest-api)\) \([Swagger](https://swagger.scaffold.ly)\)
+
+"App" Angular Portal: [https://app.scaffoldly.xyz](https://app.scaffoldly.xyz) \([GitHub Repo](https://github.com/scaffoldly-demo/app-web-angular)\)
 
 ## One Time Setup
 
