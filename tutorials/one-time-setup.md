@@ -146,7 +146,7 @@ module "bootstrap" {
    1. Review the release notes \(which is the output from Terraform Plan\) to see what will be added
    2. [❓What's being added?](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap/blob/main/README.md)
 
-### Release Changes
+### Release
 
 1. [On the Release](one-time-setup.md#commit-and-preview-changes), click **Edit**
 2. Then click **Publish**
@@ -160,6 +160,15 @@ module "bootstrap" {
 1. Check the inbox of your [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) for **2 Verification Emails**
 2. Click on the links so SES can send email to these
    1. [What about other email addresses?](../faqs.md#ses-cant-send-email-why)
+
+## Verification
+
+1. After Releasing, you will see a new repository in your GitHub Organization named `sly-auth-api`
+   1. [What is the `sly-auth-api`?](../serverless-apis/centralized-authentication.md)
+2. Go to Actions \(tab\) for `sly-auth-api` and you will see the first deployment in progress.
+3. After it finishes, in a browser, navigate to `https://sly.my-domain.tld/auth/jwt.html` and you can test creation of a JWT token
+
+
 
 👏 Congratulations! Your infrastructure is now secured, configured and ready to use in AWS!
 

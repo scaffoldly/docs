@@ -4,18 +4,18 @@ description: >-
   forever.
 ---
 
-# Feature Matrix
+# Features
 
 ## APIs
 
 | Serverless APIs |
 | :--- |
-| TypeScript, \(Python coming soon!\) |
+| TypeScript |
 | Automatically Generated Client SDKs |
 | Node + Express |
 | Serverless |
 | Full Integration with Centralized Auth Service |
-|  |
+| _\(Python + Flask coming soon!\)_ |
 
 | Centralized Authentication Service |
 | :--- |

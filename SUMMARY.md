@@ -22,8 +22,8 @@
   * [Centralized Authentication](serverless-apis/centralized-authentication.md)
 * [FAQs](faqs.md)
 * [Roadmap](roadmap.md)
+* [Features](feature-matrix.md)
 * [Contributing](contributing.md)
-* [Feature Matrix](feature-matrix.md)
 
 ## Infrastructure <a id="infrastructure-old"></a>
 
