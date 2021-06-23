@@ -14,33 +14,35 @@
   * [Prerequisites](getting-started/prerequisites.md)
   * [Bootstrapping](getting-started/bootstrapping.md)
   * [Adding Services](getting-started/adding-services.md)
-* [Infrastructure](infrastructure-1/README.md)
-  * [Alternate Domain for Non-Live](infrastructure-1/alternate-domain-for-non-live.md)
-  * [Serverless API Subdomain](infrastructure-1/serverless-api-subdomain.md)
-  * [Using an Existing Domain](infrastructure-1/using-an-existing-domain.md)
+* [Infrastructure](infrastructure/README.md)
+  * [Alternate Domain for Non-Live](infrastructure/alternate-domain-for-non-live.md)
+  * [Serverless API Subdomain](infrastructure/serverless-api-subdomain.md)
+  * [Using an Existing Domain](infrastructure/using-an-existing-domain.md)
+* [Serverless APIs](serverless-apis/README.md)
+  * [Centralized Authentication](serverless-apis/centralized-authentication.md)
 * [FAQs](faqs.md)
 * [Roadmap](roadmap.md)
 * [Contributing](contributing.md)
 * [Feature Matrix](feature-matrix.md)
 
-## Infrastructure
+## Infrastructure <a id="infrastructure-old"></a>
 
-* [FAQs](infrastructure/faqs.md)
-* [Configuration Files](infrastructure/configuration-files/README.md)
-  * [Stages](infrastructure/configuration-files/stages.md)
-  * [Serverless APIs](infrastructure/configuration-files/serverless-apis.md)
-  * [Public Websites](infrastructure/configuration-files/public-websites.md)
-  * [Template Repositories](infrastructure/configuration-files/template-repositories.md)
-  * [Adding Your Own Terraform Modules](infrastructure/configuration-files/adding-your-own-terraform-modules.md)
-* [Security](infrastructure/security/README.md)
-  * [Secrets](infrastructure/security/secrets.md)
-  * [SSL/TLS Certificates](infrastructure/security/ssl-tls-certificates.md)
-  * [Cloud Logging](infrastructure/security/cloud-logging.md)
-  * [Usage Analytics](infrastructure/security/usage-analytics.md)
-* [DNS](infrastructure/dns.md)
-* [Console Access](infrastructure/console-access.md)
-* [Service Discovery](infrastructure/service-discovery.md)
-* [Future Roadmap](infrastructure/future-roadmap.md)
+* [FAQs](infrastructure-old/faqs.md)
+* [Configuration Files](infrastructure-old/configuration-files/README.md)
+  * [Stages](infrastructure-old/configuration-files/stages.md)
+  * [Serverless APIs](infrastructure-old/configuration-files/serverless-apis.md)
+  * [Public Websites](infrastructure-old/configuration-files/public-websites.md)
+  * [Template Repositories](infrastructure-old/configuration-files/template-repositories.md)
+  * [Adding Your Own Terraform Modules](infrastructure-old/configuration-files/adding-your-own-terraform-modules.md)
+* [Security](infrastructure-old/security/README.md)
+  * [Secrets](infrastructure-old/security/secrets.md)
+  * [SSL/TLS Certificates](infrastructure-old/security/ssl-tls-certificates.md)
+  * [Cloud Logging](infrastructure-old/security/cloud-logging.md)
+  * [Usage Analytics](infrastructure-old/security/usage-analytics.md)
+* [DNS](infrastructure-old/dns.md)
+* [Console Access](infrastructure-old/console-access.md)
+* [Service Discovery](infrastructure-old/service-discovery.md)
+* [Future Roadmap](infrastructure-old/future-roadmap.md)
 
 ## Releases, Versioning, & Deployments <a id="releases-versions-deployments"></a>
 
@@ -50,16 +52,16 @@
 * [Live Deploy Checklist](releases-versions-deployments/live-deploy-checklist.md)
 * [Future Roadmap](releases-versions-deployments/future-roadmap.md)
 
-## Backends
+## Backends <a id="backends-old"></a>
 
-* [Adding a Backend](backends/adding-a-backend/README.md)
-  * [Serverless REST API](backends/adding-a-backend/serverless-rest-api.md)
-* [Auth API](backends/auth-api/README.md)
-  * [Disabling the Auth API](backends/auth-api/disabling-the-auth-api.md)
-* [serverless-util](backends/serverless-util.md)
-* [DynamoDB](backends/dynamodb.md)
-* [Future Roadmap](backends/future-roadmap.md)
-* [FAQs](backends/faqs.md)
+* [Adding a Backend](backends-old/adding-a-backend/README.md)
+  * [Serverless REST API](backends-old/adding-a-backend/serverless-rest-api.md)
+* [Auth API](backends-old/auth-api/README.md)
+  * [Disabling the Auth API](backends-old/auth-api/disabling-the-auth-api.md)
+* [serverless-util](backends-old/serverless-util.md)
+* [DynamoDB](backends-old/dynamodb.md)
+* [Future Roadmap](backends-old/future-roadmap.md)
+* [FAQs](backends-old/faqs.md)
 
 ## Frontends
 

@@ -8,7 +8,7 @@ Scaffoldly creates a sub-organization on AWS. AWS requires an email address to c
 
 ### My domain already is in use. Can I use it?
 
-Probably, but there's some [extra steps](infrastructure-1/using-an-existing-domain.md).
+Probably, but there's some [extra steps](infrastructure/using-an-existing-domain.md).
 
 ## Infrastructure
 

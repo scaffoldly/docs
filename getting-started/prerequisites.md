@@ -2,7 +2,7 @@
 
 ## AWS Account \("Root Account"\)
 
-Scaffoldly will require an AWS account to get started, and it will create a dedicated organization within your AWS account, which has [various benefits](../infrastructure/faqs.md#aws-org).
+Scaffoldly will require an AWS account to get started, and it will create a dedicated organization within your AWS account, which has [various benefits](../infrastructure-old/faqs.md#aws-org).
 
 1. If you don't already have an AWS Account, [create one](https://portal.aws.amazon.com/billing/signup)
    1. This account will be used as the Root account
@@ -10,12 +10,12 @@ Scaffoldly will require an AWS account to get started, and it will create a dedi
 
 ### Dedicated Domain \(or Subdomain\) For Your Project
 
-Scaffoldly will require at least one dedicated domain \(or subdomain\). The domain can be registered anywhere, but needs to be hosted in Route53 for the AWS "Root Account". For more information on this see the page on [DNS](../infrastructure/dns.md).
+Scaffoldly will require at least one dedicated domain \(or subdomain\). The domain can be registered anywhere, but needs to be hosted in Route53 for the AWS "Root Account". For more information on this see the page on [DNS](../infrastructure-old/dns.md).
 
 1. If you haven't already, manually add a Hosted Zone for your domain \(or subdomain\) in the [Route53 console](https://console.aws.amazon.com/route53)
    1. Your domain can be a domain \(myproject.com\) or a subdomain \(myproject.mycompany.com\)
    2. You can also have a second domain \(myproject.dev\) or a subdomain \(myproject.mycompany.dev\) if you wish for other stages
-   3. See [DNS](../infrastructure/dns.md) for the various ways you can configure this
+   3. See [DNS](../infrastructure-old/dns.md) for the various ways you can configure this
 2. Make note of the **Hosted Zone ID** of each domain, as you'll need it in the next step.
 3. Set the Name Servers for your domain or subdomain to the NS records for your domain hosted at Route53. For information on how to do this, please refer to the documentation of your domain registrar \(GoDaddy, 101domains, etc.\) or your primary DNS provider \(if you're using a subdomain\)
 

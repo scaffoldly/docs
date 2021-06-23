@@ -24,10 +24,10 @@
       1. There's two predetermined stages: "_**nonlive**_" \(aka "dev", "sandbox", "staging"\) and "_**live**_" \(aka "production"\), so **don't change those keywords**.
       2. The values in `domain` must match the **Hosted Zone** in Route53 of the Root Account
       3. For example, to have your API hosted at `myproject.dev` and/or `myproject.com` for `nonlive` and `live`, respectfully, you would have: `stages = {   nonlive = {     domain = "myproject.dev"     # or to suffix nonlive subdomains with '-dev.myproject.com'     # domain = "myproject.com"     # subdomain_suffix = "dev"   }   live = {     domain = "myproject.com"   } }`
-      4. For alternative configuration options, see the [Configuration Files](../infrastructure/configuration-files/) documentation.
+      4. For alternative configuration options, see the [Configuration Files](../infrastructure-old/configuration-files/) documentation.
 4. Commit and Push your updates
    1. A `terraform plan`operation will automatically happen after you push. **No changes will be made**. A `plan` is simply a "preview mode" to see the changes that are proposed.
-      1. [What's going to happen on initial bootstrap?](../infrastructure/faqs.md#aws-org)
+      1. [What's going to happen on initial bootstrap?](../infrastructure-old/faqs.md#aws-org)
    2. In the next section, you'll see how to observe and execute the changes
 
 ## Spinning Up Your Infrastructure
@@ -39,7 +39,7 @@ All infrastructure changes are made by creating and/or publishing releases on th
 2. You will see a new **Draft** release, likely called **0.1.1-0**
    1. The output of the `terraform plan` action is posted here, detailing all of the changes that are queued to be changed.
    2. Review it, make sure everything looks in order.
-   3. The first release will have a substantial number of resources to create, for a rundown of what's being created, check out [What's going to happen on initial bootstrap?](../infrastructure/faqs.md#aws-org)
+   3. The first release will have a substantial number of resources to create, for a rundown of what's being created, check out [What's going to happen on initial bootstrap?](../infrastructure-old/faqs.md#aws-org)
 3. Click **Edit** for the draft
 4. Click **Publish Release**
 5. To watch the changes occur:

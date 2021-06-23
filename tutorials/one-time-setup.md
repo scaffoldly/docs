@@ -13,8 +13,8 @@
 ### Domain
 
 1. Purchase a domain for your project \(for example my-project.tld\)
-   1. [Want a separate domain for Non-Live?](../infrastructure-1/alternate-domain-for-non-live.md)
-2. Make sure it hasn't been used for anything \([Why?](../infrastructure-1/using-an-existing-domain.md)\)
+   1. [Want a separate domain for Non-Live?](../infrastructure/alternate-domain-for-non-live.md)
+2. Make sure it hasn't been used for anything \([Why?](../infrastructure/using-an-existing-domain.md)\)
 
 ### GitHub Organization
 
@@ -32,7 +32,7 @@
 #### Route 53
 
 1. [Create a Hosted Zone](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/CreatingHostedZone.html) for your project domain
-   1. [Have a separate domain for Non-Live?](../infrastructure-1/alternate-domain-for-non-live.md)
+   1. [Have a separate domain for Non-Live?](../infrastructure/alternate-domain-for-non-live.md)
 2. 🗒️ Make note of the **Hosted Zone ID**
 3. [Update the NS records](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/MigratingDNS.html) at your domain's registrar to point to Route 53
 
@@ -119,7 +119,7 @@
 
 1. Edit `main.tf` in `scaffoldly-bootstrap`
 2. Set your domain in the `stages` block \([example](https://github.com/scaffoldly-demo/scaffoldly-bootstrap/blob/76206b8a41af9e2a58c0eba3c987f3f65ab46ea3/main.tf#L20-L28)\)
-   1. [Have a separate domain for Non-Live?](../infrastructure-1/alternate-domain-for-non-live.md)
+   1. [Have a separate domain for Non-Live?](../infrastructure/alternate-domain-for-non-live.md)
 
 ```text
 module "bootstrap" {

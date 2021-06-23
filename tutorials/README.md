@@ -30,16 +30,18 @@ The tutorials in this section will build our Demo Organization:
 
 * ❓ [Why a dedicated email address?](../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)
 * 🔗 [New GitHub Organization](https://github.com/organizations/plan)
-* ⚠️ [Updating your domain to Route53](../infrastructure-1/using-an-existing-domain.md)
+* ⚠️ [Updating your domain to Route53](../infrastructure/using-an-existing-domain.md)
 * 📕 [Policy Document](one-time-setup.md#iam-role)
 * 🔗 [Terraform Cloud](https://www.terraform.io/cloud)
 * [🔗 Scaffoldly Bootstrap Template](https://github.com/scaffoldly/bootstrap-template)
 * [❓ What does Scaffoldly Create?](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap/blob/main/README.md)
+* ❓ Authentication API + JWT Tokens
 
 #### For Your Reference
 
 * [Scaffoldly Demo Organization](https://github.com/scaffoldly-demo)
 * [Stages Configuration](https://github.com/scaffoldly-demo/scaffoldly-bootstrap/blob/76206b8a41af9e2a58c0eba3c987f3f65ab46ea3/main.tf#L20-L28)
+* JWT Token Generator: [Non-Live](https://sly-dev.scaffoldly.xyz/auth/jwt.html), [Live](https://sly.scaffoldly.xyz/auth/jwt.html)
 
 #### Repo Secrets
 
