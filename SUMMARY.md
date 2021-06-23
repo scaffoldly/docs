@@ -24,6 +24,7 @@
 * [Roadmap](roadmap.md)
 * [Features](feature-matrix.md)
 * [Contributing](contributing.md)
+* [Credits](credits.md)
 
 ## Infrastructure <a id="infrastructure-old"></a>
 
@@ -69,8 +70,4 @@
   * [CDN](frontends/adding-a-frontend/cdn.md)
   * [Angular](frontends/adding-a-frontend/angular.md)
 * [Future Roadmap](frontends/future-roadmap.md)
-
----
-
-* [Credits](credits.md)
 
