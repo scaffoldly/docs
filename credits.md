@@ -4,19 +4,33 @@ description: "A lot of people put a lot of work in, we merely connected them tog
 
 # Credits
 
-Ngx-Rocket
+## [ngx-rocket](https://github.com/ngx-rocket)
 
-Serverless
+They provided an excellent starting point for our Angular template
 
-Terraform
+## [Serverless](https://github.com/serverless)
 
-angularx-social-login
+The entire API deploy pattern is build on this.
 
-Tsoa
+## [Terraform](https://github.com/hashicorp/terraform)
 
-Jose
+All infrastructure is built with this tool
 
+## [tsoa](https://github.com/lukeautry/tsoa)
 
+Method decorators in TypeScript for automatic API generation
+
+## [Jose](https://github.com/panva/jose)
+
+JWT Token Generation
+
+## [openapi-generator](https://github.com/OpenAPITools/openapi-generator)
+
+Generation of Client SDKs based on an OpenAPI document
+
+## [serverless-express](https://github.com/vendia/serverless-express)
+
+Making Lambda functions run on Serverless
 
 
 
