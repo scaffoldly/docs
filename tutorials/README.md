@@ -22,7 +22,7 @@ The tutorials in this section will build our Demo Organization:
 
 ## One Time Setup
 
-📕 Don't want to watch the video? [Follow these steps](one-time-setup.md#prerequisites)
+⏱Too fast? 📕 Don't want to watch the video? [Follow these steps](one-time-setup.md#prerequisites)
 
 {% embed url="https://youtu.be/08wrzSMRFz0" %}
 
