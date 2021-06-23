@@ -35,7 +35,7 @@ The tutorials in this section will build our Demo Organization:
 * 🔗 [Terraform Cloud](https://www.terraform.io/cloud)
 * [🔗 Scaffoldly Bootstrap Template](https://github.com/scaffoldly/bootstrap-template)
 * [❓ What does Scaffoldly Create?](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap/blob/main/README.md)
-* ❓ Authentication API + JWT Tokens
+* [❓ Authentication API + JWT Tokens](../serverless-apis/centralized-authentication.md)
 
 #### For Your Reference
 
