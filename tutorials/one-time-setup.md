@@ -141,7 +141,7 @@ module "bootstrap" {
    1. ❓Here you can watch [Terraform Plan](https://www.terraform.io/docs/cli/commands/plan.html) command execute within GitHub Actions
 3. Once finished, go to **Releases** and locate the most recent draft release
    1. Review the release notes \(which is the output from Terraform Plan\) to see what will be added
-   2. [❓What's being added?](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap/blob/main/README.md)
+   2. [❓What's being added?](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap#what-gets-created)
 
 ### Release
 
@@ -161,7 +161,7 @@ module "bootstrap" {
 ## Verification
 
 1. After Releasing, you will see a new repository in your GitHub Organization named `sly-auth-api`
-   1. [What is the `sly-auth-api`?](../serverless-apis/centralized-authentication.md)
+   1. [What is the `sly-auth-api`?]()
 2. Go to Actions \(tab\) for `sly-auth-api` and you will see the first deployment in progress.
 3. After it finishes, in a browser, navigate to `https://sly-dev`**`.my-domain.tld`**`/auth/jwt.html` and you can test creation of a JWT token
 

@@ -35,7 +35,7 @@ The tutorials in this section will build our Demo Organization:
 * 🔗 [Terraform Cloud](https://www.terraform.io/cloud)
 * [🔗 Scaffoldly Bootstrap Template](https://github.com/scaffoldly/bootstrap-template)
 * [❓ What does Scaffoldly Create?](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap/blob/main/README.md)
-* [❓ Authentication API + JWT Tokens](../serverless-apis/centralized-authentication.md)
+* [❓ Authentication API + JWT Tokens]()
 
 #### For Your Reference
 
@@ -55,13 +55,9 @@ The tutorials in this section will build our Demo Organization:
 
 ### Serverless API
 
-⏱Too fast? 📕 Don't want to watch the video? Follow these steps
-
 {% embed url="https://youtu.be/rlSJU3jzEPQ" %}
 
 ### Web Portal Implementation
-
-⏱Too fast? 📕 Don't want to watch the video? Follow these steps
 
 {% embed url="https://youtu.be/6EYJ2\_631kU" %}
 
@@ -69,19 +65,13 @@ The tutorials in this section will build our Demo Organization:
 
 ### Backend
 
-⏱Too fast? 📕 Don't want to watch the video? Follow these steps
-
 {% embed url="https://youtu.be/51ayFP8WOms" %}
 
 ### Frontend
 
-⏱Too fast? 📕 Don't want to watch the video? Follow these steps
-
 {% embed url="https://youtu.be/aVzwuKzru90" %}
 
 ## Push to Live
-
-⏱Too fast? 📕 Don't want to watch the video? Follow these steps
 
 {% embed url="https://youtu.be/5Ybef2xzwC0" %}
 
