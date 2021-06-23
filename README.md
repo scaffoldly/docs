@@ -1,17 +1,5 @@
 # Introducing Scaffoldly
 
-{% hint style="info" %}
-This documentation is a work-in-progress and may be lacking in some areas, but we're actively working to improve it!  
-  
-If you're missing context on anything,[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss it in the `#documentation` channel, I'll be happy to fill you in as quickly as possible.
-
-I've also added things we've recognized that are missing from the documentation to the [Roadmap](roadmap.md#documentation).  
-  
-Glad you're here!   
-  
--- **Christian**, Scaffoldly Founder, June 24, 2020
-{% endhint %}
-
 {% embed url="https://youtu.be/N\_i9dDo0br8" %}
 
 Many frameworks are great at getting you started, but drop the ball when it comes time to deploy, so you're left to patchwork your own solution together to get your project hosted in the Cloud, which can sometimes take a month of clicking around in the cloud console to get your project to host on your own domain name.

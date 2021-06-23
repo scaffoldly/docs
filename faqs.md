@@ -1,7 +1,3 @@
----
-description: A collection of FAQs compiled from the Slack Community
----
-
 # FAQs
 
 ## General
@@ -16,10 +12,6 @@ Probably, but there's some [extra steps](infrastructure/using-an-existing-domain
 
 ## Infrastructure
 
-### What gets created during bootstrapping?
-
-The detailed list is maintained [here](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap#what-gets-created).
-
 ### How do I access my Scaffoldly-created AWS Organization?
 
 Check out [this article](https://aws.amazon.com/premiumsupport/knowledge-center/organizations-member-account-access/).
@@ -31,21 +23,11 @@ AWS SES, by default, is in Sandbox mode, so it can only send to verified email a
 * [Verify another email address](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-email-addresses.html)
 * [Leave sandbox mode](https://docs.aws.amazon.com/ses/latest/DeveloperGuide/request-production-access.html)
 
-## Authentication API
-
-No FAQs, yet!
-
 ## Serverless APIs
-
-No FAQs, yet!
 
 ## Frontends
 
-No FAQs, yet!
-
 ## Releases & Deployments
-
-No FAQs, yet!
 
 
 

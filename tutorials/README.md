@@ -20,6 +20,18 @@ The tutorials in this section will build our Demo Organization:
 * "Cool" API OpenAPI: [GitHub Repo](https://github.com/scaffoldly-demo/cool-sls-rest-api) \| OpenAPI: [Non-Live](https://swagger.scaffold.ly/?url=https://sly-dev.scaffoldly.xyz/cool/openapi.json), [Live](https://swagger.scaffold.ly/?url=https://sly.scaffoldly.xyz/cool/openapi.json)
 * "App" Angular Portal: [GitHub Repo](https://github.com/scaffoldly-demo/app-web-angular) \| Portal: [Non-Live](https://app-dev.scaffoldly.xyz), [Live](https://app.scaffoldly.xyz)
 
+{% hint style="info" %}
+This documentation is a work-in-progress and may be lacking in some areas, but we're actively working to improve it!  
+  
+If you're missing context on anything,[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss it in the `#documentation` channel, I'll be happy to fill you in as quickly as possible.
+
+I've also added things we've recognized that are missing from the documentation to the [Roadmap](../roadmap.md#documentation).  
+  
+Glad you're here!   
+  
+-- **Christian**, Scaffoldly Founder, June 24, 2020
+{% endhint %}
+
 ## One Time Setup
 
 ⏱Too fast? 📕 Don't want to watch the video? [Follow these steps](one-time-setup.md#prerequisites)
