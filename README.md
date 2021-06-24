@@ -5,9 +5,9 @@
 {% hint style="info" %}
 This documentation is a work-in-progress and may be lacking in some areas, but we're actively working to improve it!  
   
-If you're missing context on anything,[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss it in the `#documentation` channel, I'll be happy to fill you in as quickly as possible.
+Missing context on anything?[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss it in the `#documentation` channel, we'll be happy to fill you in as quickly as possible.
 
-I've also added things we've recognized that are missing from the documentation to the [Roadmap](roadmap.md#documentation).  
+We've also added things we've recognized that are missing from the documentation to the [Roadmap](roadmap.md#documentation).  
   
 Glad you're here!   
   
