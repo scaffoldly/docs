@@ -3,7 +3,9 @@
 {% embed url="https://youtu.be/N\_i9dDo0br8" %}
 
 {% hint style="info" %}
-Missing context on anything?[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss in the `#documentation` channel, we'll be happy to fill you in as quickly as possible.
+Missing context on anything?[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss in the `#documentation` channel. 
+
+We'll be happy to fill you in as quickly as possible.
 
 Check out our [Roadmap](roadmap.md) for the documentation we'll be updating constantly.  
   
