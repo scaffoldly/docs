@@ -60,7 +60,7 @@ Scaffoldly aims to set up all of the primitives of hosting your project while no
 
 ### DevOps
 
-* **Continuous Integration:** Each checkin to the main branch of a repository triggers a build and releases to Non-Live.
+* **Continuous Integration:** Each check-in to the main branch of a repository triggers a build and releases to Non-Live.
 * **Continuous Delivery**: Each Non-Live deployment creates a Pre-Release in GitHub. When you're ready to go live, click a button in GitHub.
 * **Infrastructure Changes**: Instead of running Terraform from your Laptop or clicking around in the AWS Console, all [Infrastructure-as-Code](https://en.wikipedia.org/wiki/Infrastructure_as_code). All changes are previewed and applied using GitHub Actions and GitHub Releases. Each change is versioned and there's a full audit trail and everything is predictable and uses a familiar pattern for deploying code.
 
