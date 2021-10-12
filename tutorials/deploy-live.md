@@ -4,5 +4,3 @@
 
 ## What's Next?
 
-
-

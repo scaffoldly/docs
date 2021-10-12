@@ -2,15 +2,19 @@
 
 ## Step 1: Backend API
 
-{% page-ref page="backend-api.md" %}
+{% content-ref url="backend-api.md" %}
+[backend-api.md](backend-api.md)
+{% endcontent-ref %}
 
 ## Step 2: Web Portal
 
-{% page-ref page="web-portal.md" %}
+{% content-ref url="web-portal.md" %}
+[web-portal.md](web-portal.md)
+{% endcontent-ref %}
 
 ## What's Next?
 
-{% page-ref page="../deploy-live.md" %}
-
-
+{% content-ref url="../deploy-live.md" %}
+[deploy-live.md](../deploy-live.md)
+{% endcontent-ref %}
 

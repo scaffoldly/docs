@@ -1,5 +1,7 @@
 ---
-description: "A lot of people put a lot of work in, we merely connected them together. Give them \U0001F44F!"
+description: >-
+  A lot of people put a lot of work in, we merely connected them together. Give
+  them 👏!
 ---
 
 # Credits
@@ -31,6 +33,4 @@ Generation of Client SDKs based on an OpenAPI document
 ## [serverless-express](https://github.com/vendia/serverless-express)
 
 Making Lambda functions run on Serverless
-
-
 

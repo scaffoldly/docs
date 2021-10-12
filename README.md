@@ -1,17 +1,17 @@
 # Introducing Scaffoldly
 
-{% embed url="https://youtu.be/N\_i9dDo0br8" %}
+{% embed url="https://youtu.be/N_i9dDo0br8" %}
 
 {% hint style="info" %}
 Missing context on anything?[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss in the `#documentation` channel. 
 
 We'll be happy to fill you in as quickly as possible.
 
-Check out our [Roadmap](roadmap.md) for the documentation we'll be updating constantly.  
-  
-Glad you're here!   
-  
--- **Christian**, Scaffoldly Founder, June 24, 2020
+Check out our [Roadmap](roadmap.md) for the documentation we'll be updating constantly.\
+\
+Glad you're here! \
+\
+\-- **Christian**, Scaffoldly Founder, June 24, 2020
 {% endhint %}
 
 Many frameworks are great at getting you started, but drop the ball when it comes time to deploy, so you're left to patchwork your own solution together to get your project hosted in the Cloud, which can sometimes take a month of clicking around in the cloud console to get your project to host on your own domain name.
@@ -34,9 +34,9 @@ Scaffoldly aims to set up all of the primitives of hosting your project while no
 
 ### Infrastructure
 
-* **Infinitely Scalable**: Scaffoldly uses highly-scalable infrastructure services from AWS \(Lambda, API Gateway, CloudFront\). They're the experts at scaling, so you don't have to be.
+* **Infinitely Scalable**: Scaffoldly uses highly-scalable infrastructure services from AWS (Lambda, API Gateway, CloudFront). They're the experts at scaling, so you don't have to be.
 * **Infrastructure-as-Code**: No more clicking around in the AWS Console "trying to get things to work". All infrastructure changes are managed via reviews and releases.
-* **Cost Conscious**: Scaffoldly leverages Cloud Services that are pay-as-you-go \(Lambda, CloudFront, S3, API Gateway, etc\) so your month-to-month hosting costs are pennines on the dollar, and you're not paying dearly for "Idle Infrastructure".
+* **Cost Conscious**: Scaffoldly leverages Cloud Services that are pay-as-you-go (Lambda, CloudFront, S3, API Gateway, etc) so your month-to-month hosting costs are pennines on the dollar, and you're not paying dearly for "Idle Infrastructure".
 * **Multiple Environments**: Scaffoldly provisions Non-Live and Live "environments/stages" so you have a safe place to experiment with your platform before making them available to the world.
 
 {% hint style="success" %}
@@ -47,7 +47,7 @@ Scaffoldly aims to set up all of the primitives of hosting your project while no
 
 * **Service-Level Identity**: Every service has an identity based on its GitHub repository name and every dependent service contains that name to restrict its access to just what it needs.
 * **Logging/Auditing**: Scaffoldly automatically enables logging of your AWS Cloud Activity and Applications and those logs cannot be tampered with.
-* **SSL/TLS**: Scaffoldly provisions SSL Certificates for your domain\(s\) so communication to your Portals and APIs are secure by default.
+* **SSL/TLS**: Scaffoldly provisions SSL Certificates for your domain(s) so communication to your Portals and APIs are secure by default.
 * **Authentication/Authorization**: Scaffoldly provides an Authentication/Authorization service out-of-the box that manages user authentication via JWT tokens that are usable throughout your Organization.
 * **Complete Control**: All code is completely modify-able by you, there's no "black box".
 
@@ -56,7 +56,7 @@ Scaffoldly aims to set up all of the primitives of hosting your project while no
 * **Microservices**: Scaffoldly embraces the microservices architecture with a slight twist, instead of Docker Containers, each service contains multiple individual Lambda Functions that are name spaced by the GitHub repository and stage and presented as a single service.
 * **Service Discovery**: Scaffoldly places a configuration file in each managed repository with a map of each service and how to communicate with them. No more complicated service mesh and discovery.
 * **JWT Tokens**: Scaffoldly provides an Authentication API to generate JWT tokens for users that can be used across all applications and all services.
-* **OpenAPI**: Each backend service automatically generates an OpenAPI specification and  using [tsoa decorators](https://tsoa-community.github.io/docs/) \(on the backend\) and the [OpenAPI generator](https://github.com/scaffoldly/openapi-generator) \(backends and frontends\) for a tight API contract between your backends and frontends.
+* **OpenAPI**: Each backend service automatically generates an OpenAPI specification and  using [tsoa decorators](https://tsoa-community.github.io/docs/) (on the backend) and the [OpenAPI generator](https://github.com/scaffoldly/openapi-generator) (backends and frontends) for a tight API contract between your backends and frontends.
 
 ### DevOps
 
@@ -67,4 +67,3 @@ Scaffoldly aims to set up all of the primitives of hosting your project while no
 ## How Do I Set Started?
 
 Start with our [Tutorials](tutorials/)!
-

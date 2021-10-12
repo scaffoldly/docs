@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The tutorials in this section will build our Demo Organization:  
+The tutorials in this section will build our Demo Organization:\
 [https://github.com/scaffoldly-demo](https://github.com/scaffoldly-demo)
 
 #### This tutorial will instruct the following:
@@ -16,20 +16,20 @@ The tutorials in this section will build our Demo Organization:
 #### Services created in the demo:
 
 * Scaffoldly Bootstrap: [GitHub Repo](https://github.com/scaffoldly-demo/scaffoldly-bootstrap)
-* Authentication API: [GitHub Repo](https://github.com/scaffoldly-demo/sly-auth-api) \| OpenAPI: [Non-Live](https://swagger.scaffold.ly/?url=https://sly-dev.scaffoldly.xyz/auth/openapi.json), [Live](https://swagger.scaffold.ly/?url=https://sly.scaffoldly.xyz/auth/openapi.json)
-* "Cool" API OpenAPI: [GitHub Repo](https://github.com/scaffoldly-demo/cool-sls-rest-api) \| OpenAPI: [Non-Live](https://swagger.scaffold.ly/?url=https://sly-dev.scaffoldly.xyz/cool/openapi.json), [Live](https://swagger.scaffold.ly/?url=https://sly.scaffoldly.xyz/cool/openapi.json)
-* "App" Angular Portal: [GitHub Repo](https://github.com/scaffoldly-demo/app-web-angular) \| Portal: [Non-Live](https://app-dev.scaffoldly.xyz), [Live](https://app.scaffoldly.xyz)
+* Authentication API: [GitHub Repo](https://github.com/scaffoldly-demo/sly-auth-api) | OpenAPI: [Non-Live](https://swagger.scaffold.ly/?url=https://sly-dev.scaffoldly.xyz/auth/openapi.json), [Live](https://swagger.scaffold.ly/?url=https://sly.scaffoldly.xyz/auth/openapi.json)
+* "Cool" API OpenAPI: [GitHub Repo](https://github.com/scaffoldly-demo/cool-sls-rest-api) | OpenAPI: [Non-Live](https://swagger.scaffold.ly/?url=https://sly-dev.scaffoldly.xyz/cool/openapi.json), [Live](https://swagger.scaffold.ly/?url=https://sly.scaffoldly.xyz/cool/openapi.json)
+* "App" Angular Portal: [GitHub Repo](https://github.com/scaffoldly-demo/app-web-angular) | Portal: [Non-Live](https://app-dev.scaffoldly.xyz), [Live](https://app.scaffoldly.xyz)
 
 {% hint style="info" %}
-This documentation is a work-in-progress and may be lacking in some areas, but we're actively working to improve it!  
-  
+This documentation is a work-in-progress and may be lacking in some areas, but we're actively working to improve it!\
+\
 If you're missing context on anything,[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss it in the `#documentation` channel, I'll be happy to fill you in as quickly as possible.
 
-I've also added things we've recognized that are missing from the documentation to the [Roadmap](../roadmap.md#documentation).  
-  
-Glad you're here!   
-  
--- **Christian**, Scaffoldly Founder, June 24, 2020
+I've also added things we've recognized that are missing from the documentation to the [Roadmap](../roadmap.md#documentation).\
+\
+Glad you're here! \
+\
+\-- **Christian**, Scaffoldly Founder, June 24, 2020
 {% endhint %}
 
 ## One Time Setup
@@ -47,7 +47,7 @@ Glad you're here!
 * 🔗 [Terraform Cloud](https://www.terraform.io/cloud)
 * [🔗 Scaffoldly Bootstrap Template](https://github.com/scaffoldly/bootstrap-template)
 * [❓ What does Scaffoldly Create?](https://github.com/scaffoldly/terraform-scaffoldly-bootstrap/blob/main/README.md)
-* [❓ Authentication API + JWT Tokens]()
+* [❓ Authentication API + JWT Tokens](broken-reference)
 
 #### For Your Reference
 
@@ -71,7 +71,7 @@ Glad you're here!
 
 ### Web Portal Implementation
 
-{% embed url="https://youtu.be/6EYJ2\_631kU" %}
+{% embed url="https://youtu.be/6EYJ2_631kU" %}
 
 ## Add a New API Endpoint
 
@@ -86,6 +86,4 @@ Glad you're here!
 ## Push to Live
 
 {% embed url="https://youtu.be/5Ybef2xzwC0" %}
-
-
 

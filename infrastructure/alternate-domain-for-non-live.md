@@ -7,12 +7,12 @@ Scaffoldly supports having a secondary domain for Non-Live, for example if you'v
 If you want this configuration, update `main.tf` in `scaffoldly-bootstrap`:
 
 {% hint style="danger" %}
-Changing this after initial bootstrapping isn't supported at this time.  
-  
+Changing this after initial bootstrapping isn't supported at this time.\
+\
 [Join the community](https://join.slack.com/t/scaffoldly/signup) to discuss further.
 {% endhint %}
 
-```text
+```
 module "bootstrap" {
   source  = "scaffoldly/bootstrap/scaffoldly"
   
@@ -32,13 +32,13 @@ module "bootstrap" {
 
 Create a second Hosted Zone in Route53. Make note of the different Hosted Zone IDs.
 
-![](../.gitbook/assets/screen-shot-2021-06-23-at-9.31.42-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-06-23 at 9.31.42 AM.png>)
 
 ## AWS IAM User
 
 Add the Hosted Zone ID to the Inline Policy for the Bootstrap user in IAM.
 
-```text
+```
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -57,4 +57,3 @@ Add the Hosted Zone ID to the Inline Policy for the Bootstrap user in IAM.
     ]
 }
 ```
-

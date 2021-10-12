@@ -18,4 +18,3 @@ Your domain will need to be hosted on AWS Route53 for Scaffoldly to work.
 When adding your existing domain to Route53, be sure to copy the existing records into Route53. Most DNS providers have an export option:
 
 After you create a hosted zone in AWS Route53, follow [these instructions](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/MigratingDNS.html).
-
