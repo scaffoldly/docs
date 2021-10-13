@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Introducing Scaffoldly](README.md)
+* [How-To's](how-tos/README.md)
+  * [Cloud Infrastructure](how-tos/cloud-infrastructure/README.md)
+    * [AWS](how-tos/cloud-infrastructure/aws.md)
+    * [Terraform](how-tos/cloud-infrastructure/terraform.md)
 * [Tutorials](tutorials/README.md)
   * [One Time Setup](tutorials/one-time-setup.md)
   * [Add Services](tutorials/add-services/README.md)
@@ -19,4 +23,3 @@
 * [Roadmap](roadmap.md)
 * [Contributing](contributing.md)
 * [Credits](credits.md)
-
