@@ -25,7 +25,7 @@ This documentation is a work-in-progress and may be lacking in some areas, but w
 \
 If you're missing context on anything,[ Join the Slack Community](https://join.slack.com/t/scaffoldly/signup) and lets discuss it in the `#documentation` channel, I'll be happy to fill you in as quickly as possible.
 
-I've also added things we've recognized that are missing from the documentation to the [Roadmap](../roadmap.md#documentation).\
+I've also added things we've recognized that are missing from the documentation to the [Roadmap](../../roadmap.md#documentation).\
 \
 Glad you're here! \
 \
@@ -40,7 +40,7 @@ Glad you're here! \
 
 #### Questions / Links
 
-* ❓ [Why a dedicated email address?](../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)
+* ❓ [Why a dedicated email address?](../../faqs/#why-do-i-need-a-dedicated-email-for-my-project)
 * 🔗 [New GitHub Organization](https://github.com/organizations/plan)
 * ⚠️ [Updating your domain to Route53](../infrastructure/using-an-existing-domain.md)
 * 📕 [Policy Document](one-time-setup.md#iam-role)

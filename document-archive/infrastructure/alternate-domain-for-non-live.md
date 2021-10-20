@@ -32,7 +32,7 @@ module "bootstrap" {
 
 Create a second Hosted Zone in Route53. Make note of the different Hosted Zone IDs.
 
-![](<../.gitbook/assets/Screen Shot 2021-06-23 at 9.31.42 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-06-23 at 9.31.42 AM.png>)
 
 ## AWS IAM User
 

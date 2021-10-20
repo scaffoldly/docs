@@ -6,7 +6,7 @@
 
 ### Dedicated Project Email Address
 
-1. 🗒️ Create a new email address for your project (for example **my.project@gmail.com**) ([Why?](../faqs.md#why-do-i-need-a-dedicated-email-for-my-project))
+1. 🗒️ Create a new email address for your project (for example **my.project@gmail.com**) ([Why?](../../faqs/#why-do-i-need-a-dedicated-email-for-my-project))
    1. It must NOT be the same as the email address of your root AWS account
    2. It must NOT have been used previously at for any other AWS account
 
@@ -27,9 +27,9 @@
 
 #### Signup
 
-1. If you don't already have an AWS Account, [create one](https://aws.amazon.com). 
+1. If you don't already have an AWS Account, [create one](https://aws.amazon.com).&#x20;
    1. ℹ️ If you already have one, you can use that. Scaffoldly will create a [Sub-Account (aka Organization)](https://aws.amazon.com/organizations/) to keep projects separate.
-   2. ⚠️ Do NOT use your project's email address ([Why?](../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)) \
+   2. ⚠️ Do NOT use your project's email address ([Why?](../../faqs/#why-do-i-need-a-dedicated-email-for-my-project)) \
       (e.g. _something.else.entirely@gmail.com_)
 
 #### Route 53
@@ -39,7 +39,7 @@
 2. 🗒️ Make note of the **Hosted Zone ID**
 3. [Update the NS records](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/MigratingDNS.html) at your domain's registrar to point to Route 53
 
-![](<../.gitbook/assets/Screen Shot 2021-06-23 at 9.29.39 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-06-23 at 9.29.39 AM.png>)
 
 #### **AWS Organizations**
 
@@ -47,11 +47,11 @@
 
 #### IAM User
 
-![](<../.gitbook/assets/Screen Shot 2021-06-23 at 10.31.03 AM (1).png>)
+![](<../../.gitbook/assets/Screen Shot 2021-06-23 at 10.31.03 AM (1).png>)
 
-1. [Create a new AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) user
+1. [Create a new AWS IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/id\_users\_create.html#id\_users\_create\_console) user
    1. Enable **Programmatic Access**
-   2. **❓**The user name is unimportant to us, you can use `scaffoldly-bootstrap`  
+   2. **❓**The user name is unimportant to us, you can use `scaffoldly-bootstrap` &#x20;
    3. 🗒️** **Download the Access Key and Secret Key CSV
 2. Go to the new user and on the Permissions tab
 3.  Add an Inline Policy (update the **Hosted Zone ID** with your Hosted Zone ID)
@@ -88,9 +88,9 @@
    1. ⚠️ Username: Same as your [GitHub Organization](one-time-setup.md#github-organization), e.g. **my-project**
    2. ⚠️ Email: The [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) you created earlier (e.g. **my.project@gmail.com**)
 2. 🗒️ Create and make note of an [API Token](https://app.terraform.io/app/settings/tokens)
-   1. **❓**The name is unimportant to us, you can use `scaffoldly-bootstrap` 
+   1. **❓**The name is unimportant to us, you can use `scaffoldly-bootstrap`&#x20;
 
-## Add Scaffoldly Bootstrap Template 🙌 
+## Add Scaffoldly Bootstrap Template 🙌&#x20;
 
 1. Add the [Scaffoldly Bootstrap](https://github.com/scaffoldly/bootstrap-template/generate) repository into to the GitHub organization you [created](broken-reference)
    1. ⚠️ Name it `scaffoldly-bootstrap`
@@ -102,8 +102,8 @@
    ✅ `repo`\
    ✅ `workflow`\
    ✅ `admin:org`\
-         ✅ `org:read`\
-         ✅ `org:write`
+   &#x20;     ✅ `org:read`\
+   &#x20;     ✅ `org:write`
 
 ### **Add Secrets**
 
@@ -158,11 +158,11 @@ module "bootstrap" {
 
 ### Verification Emails from SES ⚠️
 
-![](<../.gitbook/assets/Screen Shot 2021-06-23 at 11.59.37 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-06-23 at 11.59.37 AM.png>)
 
 1. Check the inbox of your [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) for **2 Verification Emails **(**my.project@gmail.com**)
 2. Click on the links so SES can send email to these
-   1. [What about other email addresses?](../faqs.md#ses-cant-send-email-why)
+   1. [What about other email addresses?](../../faqs/#ses-cant-send-email-why)
 
 ## Verification
 
