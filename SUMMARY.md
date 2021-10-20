@@ -5,6 +5,7 @@
   * [Infrastructure](how-tos/infrastructure/README.md)
     * [AWS](how-tos/infrastructure/aws/README.md)
       * [Finding Logs](how-tos/infrastructure/aws/finding-logs.md)
+      * [Migrate Account Away from the Scaffoldly Organization](how-tos/infrastructure/aws/migrate-account-away-from-the-scaffoldly-organization.md)
     * [Terraform](how-tos/infrastructure/terraform/README.md)
       * [Custom Terraform](how-tos/infrastructure/terraform/custom-terraform.md)
       * [Deploying Changes](how-tos/infrastructure/terraform/deploying-changes.md)
