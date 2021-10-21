@@ -1,9 +1,13 @@
 # Open Source Components
 
+## Docs
+
+* [GitBook](https://github.com/scaffoldly/docs)
+
 ## Infrastructure
 
 * [Terraform AWS Bootstrap](https://github.com/scaffoldly/terraform-aws-bootstrap)
-  * Other related modules can be found in [Scaffoldly's Terraform Registry](https://registry.terraform.io/namespaces/scaffoldly).
+  * Other related modules can be found in [Terraform Registry](https://registry.terraform.io/namespaces/scaffoldly)
 * [Terraform AWS Archetype](https://github.com/scaffoldly/archetype-scaffoldly-bootstrap)
 
 ## Code Templates
