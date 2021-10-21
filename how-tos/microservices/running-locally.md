@@ -96,7 +96,7 @@ Here's a couple examples:
 {"name":"auth-sls-rest-api","healty":true,"now":"2021-10-21T00:59:48.627Z","version":"1.0.0-2"}%
 ```
 
-Or open the Swagger UI in a web browser to see additional API endpoints
+#### Swagger UI
 
 > https://localhost:3000/auth/swagger.html
 
