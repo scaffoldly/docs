@@ -7,6 +7,10 @@ description: >-
 
 # Migrate Account Away from the Scaffoldly Organization
 
+{% hint style="success" %}
+Scaffoldly will still be able to automate and assist with infrastructure and code deployments
+{% endhint %}
+
 {% hint style="warning" %}
 You can complete these steps after **7 days after** your account was first created, due to AWS Organizations rules.
 {% endhint %}
