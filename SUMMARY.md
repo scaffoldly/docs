@@ -18,5 +18,6 @@
     * [Deploying Changes](how-tos/microservices/deploying-changes.md)
 * [FAQs](faqs.md)
 * [Roadmap](roadmap.md)
-* [Contributing](contributing.md)
+* [Contributing](contributing/README.md)
+  * [Open Source Components](contributing/open-source-components.md)
 * [Credits](credits.md)
