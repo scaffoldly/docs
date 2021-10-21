@@ -14,8 +14,6 @@ Scaffoldly itself is [Open Source](https://github.com/scaffoldly) and free. You 
 
 Scaffoldly is for **Startups** and **Personal Projects**. Ideally, you've written no code and you're starting with an idea and you're ready to code, but need a place to start.
 
-Out target persona is a CTO ready to build a startup, and/or a hobbyist wanting to make a quick project.
-
 ## What Does it Do?
 
 Scaffoldly aims to set up all of the primitives of hosting your project while not relinquishing any of the control to evolve over time. You own the code and infrastructure from end-to-end.
