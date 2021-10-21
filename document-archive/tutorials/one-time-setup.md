@@ -6,7 +6,7 @@
 
 ### Dedicated Project Email Address
 
-1. 🗒️ Create a new email address for your project (for example **my.project@gmail.com**) ([Why?](../../faqs/#why-do-i-need-a-dedicated-email-for-my-project))
+1. 🗒️ Create a new email address for your project (for example **my.project@gmail.com**) ([Why?](../../faqs.md#why-do-i-need-a-dedicated-email-for-my-project))
    1. It must NOT be the same as the email address of your root AWS account
    2. It must NOT have been used previously at for any other AWS account
 
@@ -29,7 +29,7 @@
 
 1. If you don't already have an AWS Account, [create one](https://aws.amazon.com).&#x20;
    1. ℹ️ If you already have one, you can use that. Scaffoldly will create a [Sub-Account (aka Organization)](https://aws.amazon.com/organizations/) to keep projects separate.
-   2. ⚠️ Do NOT use your project's email address ([Why?](../../faqs/#why-do-i-need-a-dedicated-email-for-my-project)) \
+   2. ⚠️ Do NOT use your project's email address ([Why?](../../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)) \
       (e.g. _something.else.entirely@gmail.com_)
 
 #### Route 53
@@ -162,7 +162,7 @@ module "bootstrap" {
 
 1. Check the inbox of your [Dedicated Project Email Address](one-time-setup.md#dedicated-project-email-address) for **2 Verification Emails **(**my.project@gmail.com**)
 2. Click on the links so SES can send email to these
-   1. [What about other email addresses?](../../faqs/#ses-cant-send-email-why)
+   1. [What about other email addresses?](../../faqs.md#ses-cant-send-email-why)
 
 ## Verification
 

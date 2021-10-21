@@ -40,7 +40,7 @@ Glad you're here! \
 
 #### Questions / Links
 
-* ❓ [Why a dedicated email address?](../../faqs/#why-do-i-need-a-dedicated-email-for-my-project)
+* ❓ [Why a dedicated email address?](../../faqs.md#why-do-i-need-a-dedicated-email-for-my-project)
 * 🔗 [New GitHub Organization](https://github.com/organizations/plan)
 * ⚠️ [Updating your domain to Route53](../infrastructure/using-an-existing-domain.md)
 * 📕 [Policy Document](one-time-setup.md#iam-role)
