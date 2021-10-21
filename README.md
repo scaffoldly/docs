@@ -8,7 +8,7 @@ Scaffoldly is picking up the ball. We're taking those frameworks and taking it a
 
 Scaffoldly uses Open Source and widely accepted tools such as [Terraform](https://terraform.io), [Serverless](https://serverless.com) and [GitHub](https://github.com). You bootstrap your project with a few lines of "Infrastructure Code" and Scaffoldly provisions and secures an AWS account, and provides templates that are ready to launch so you can [get down to business](https://open.spotify.com/track/6f3Slt0GbA2bPZlz0aIFXN?si=0cf95135cc9b424e).
 
-Scaffoldly itself is [Open Source](https://github.com/scaffoldly) and free. You can have a fully functional, secure, and infinitely scalable infrastructure within minutes instead of months, hosted on your own domain.
+Scaffoldly provides [Open Source](https://github.com/scaffoldly) templates and automations. You can have a fully functional, secure, and infinitely scalable infrastructure within minutes instead of months.
 
 ## Who's it For?
 
