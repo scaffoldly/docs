@@ -13,7 +13,6 @@ The following instructions will allow you to provision a new Service the same wa
 ### Create a Repository from the [GitHub Template](https://github.com/scaffoldly/github-template/generate)
 
 * Add it to your Organization or User account managed by Scaffoldly
-* Add a Description of `Managed by Scaffoldly` (**Important: **this is so our automations can detect it's one we should affect)
 * Repository Naming:
   * Let's assume you want to call this service `payments` and have it accessible at `https://{{your-domain}}/payments`
   * Name the repository `payments-sls-rest-api` (all lower case, delimited with hyphens)
